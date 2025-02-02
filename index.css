@@ -1,0 +1,30 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+@import url(./blocks/page.css);
+@import url(./blocks/container.css);
+@import url(./blocks/burger.css);
+@import url(./blocks/nav.css);
+
+@import url(./blocks/header.css);
+@import url(./blocks/phone-link.css);
+
+@import url(./blocks/main-page.css);
+@import url(./blocks/form-container.css);
+
+@import url(./blocks/benefits.css);
+@import url(./blocks/producers.css);
+@import url(./blocks/carousel.css);
+
+@import url(./blocks/scheme.css);
+@import url(./blocks/block.css);
+
+
+@import url(./blocks/faq.css);
+@import url(./blocks/accordion.css);
+
+@import url(./blocks/footer.css);
+
+@import url(./blocks/logo.css);
+
+@import url(./blocks/request.css);

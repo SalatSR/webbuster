@@ -1,0 +1,28 @@
+.request {
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.request_place_scheme {
+  background-color: #FFA500;
+}
+
+.request_place_footer {
+  background-color: #969AF7;
+}
+
+@media screen and (min-width: 1280px) {
+  .request {
+    height: 56px;
+  }
+  
+  .request_place_scheme {
+    width: 300px;
+  }
+}

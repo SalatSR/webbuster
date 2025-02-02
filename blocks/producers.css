@@ -1,0 +1,84 @@
+.producers {
+  box-sizing: inherit;
+  position: relative;
+  z-index: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: -46px;
+  margin-bottom: -35px;
+  color: #fff;
+}
+
+.producers__background-img {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../images/producer-bg-img.svg');
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.producers__background-img::after {
+  position: absolute;
+  z-index: 1;
+  content: '';
+  background-image: url('./../images/producer-bg-img-waves.png');
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.producers__title {
+  font-size: 30px;
+  font-family: 'FuturaBookC-Bold';
+  margin: 0 0 25px;
+  padding: 0;
+  text-align: center;
+}
+
+.producers__carousel-container {
+  margin-bottom: 20px;
+}
+
+.producers p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (min-width: 720px) {
+  .producers {
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .producers {
+    padding-top: 110px;
+    padding-bottom: 0;
+    margin-top: -29px;
+    margin-bottom: -29px;
+    height: 728px;
+  }
+  
+  .producers__title {
+    font-size: 45px;
+    margin-bottom: 57px;
+  }
+  
+  .producers__carousel-container {
+    margin-bottom: 42px;
+  }
+  
+  .producers p {
+    font-size: 20px;
+    line-height: 31px;
+  }
+  
+}

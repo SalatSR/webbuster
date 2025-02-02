@@ -1,0 +1,22 @@
+.phone-link {
+  display: flex;
+  align-items: center;
+}
+
+.phone-link__icon {
+  width: 20px;
+  height: 20px;
+  background-image: url(./../images/header-phone-img.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 9px;
+}
+
+@media screen and (min-width: 1280px) {
+
+  .phone-link__icon {
+    width: 33px;
+    height: 33px;
+  }
+}

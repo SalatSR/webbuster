@@ -1,0 +1,15 @@
+.page {
+  box-sizing: border-box;
+  background-color: green;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  font-family: "FuturaBookC";
+  min-width: 320px;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+}

@@ -1,0 +1,83 @@
+.footer {
+  box-sizing: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  font-family: "Futurabookc";
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer a:hover {
+  opacity: .5;
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo {
+  max-height: 34px;
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.footer__request {
+  width: 261px;
+  height: 56px;
+}
+
+@media screen and (min-width: 426px) {
+  .footer__logo {
+    width: 156px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    height: 177px;
+  }
+  
+  .footer__logo {
+    width: 170px;
+    margin-bottom: 0;
+  }
+
+  .footer__inner {
+    flex-direction: row;
+  }
+
+  .footer__request {
+    width: 240px;
+    height: 45px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding: 0;
+  }
+  
+  .footer__logo {
+    width: 189px;
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+
+  .footer__nav {
+    font-size: 18px;
+  }
+
+  .footer__request {
+    margin-left: 44px;
+  }
+}

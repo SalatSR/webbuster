@@ -1,0 +1,12 @@
+.logo {
+  line-height: 0;
+}
+
+.logo picture {
+  display: inline-block;
+}
+
+.logo img {
+  max-width: 100%;
+  object-fit: contain;
+}

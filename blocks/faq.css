@@ -1,0 +1,48 @@
+.faq {
+  box-sizing: inherit;
+  position: relative;
+  margin-top: -37px;
+  padding-top: 70px;
+  padding-bottom: 29px;
+}
+
+.faq__background-img {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../images/faq-bg-img.svg');
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.faq__background-img::after {
+  position: absolute;
+  z-index: 1;
+  content: '';
+  background-image: url('./../images/faq-bg-img-waves.png');
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 426px) {
+  .faq {
+    padding-top: 120px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .faq {
+    margin-top: -29px;
+    padding-top: 106px;
+    padding-bottom: 29px;
+  }
+}

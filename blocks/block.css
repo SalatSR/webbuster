@@ -1,0 +1,149 @@
+.block {
+  position: relative;
+  z-index: 0;
+  box-sizing: border-box;
+  width: 280px;
+  height: 200px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #041080, #0926C0);
+  padding: 24px 14px 0 76px;;
+  color: #fff;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.block__title {
+  position: relative;
+  margin: 0 0 14px;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'FuturaBookC-Bold';
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1;
+}
+
+.block__title::after {
+  position: absolute;
+  content: '01';
+  top: 0;
+  left: -50px;
+  font-size: 30px;
+  color: #969AF7;
+}
+
+.block_1 .block__title::after {
+  content: '01';
+}
+
+.block_2 .block__title::after {
+  content: '02';
+}
+
+.block_3 .block__title::after {
+  content: '03';
+}
+
+.block_4 .block__title::after {
+  content: '04';
+}
+
+.block_5 .block__title::after {
+  content: '05';
+}
+
+.block_6 .block__title::after {
+  content: '06';
+}
+
+.block__discription {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+}
+
+@media screen and (min-width: 426px) {
+  .block {
+    width: 330px;
+    height: 190px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  /* .block_1 {
+    background-image: url('./../images/block-1.svg');
+  }
+  
+  .block_2 {
+    background-image: url('./../images/block-2.svg');
+  }
+  
+  .block_3::before {
+    background-image: url('./../images/block-3.svg');
+  }
+  
+  .block_4 {
+    background-image: url('./../images/block-4.svg');
+  }
+  
+  .block_5 {
+    background-image: url('./../images/block-5.svg');
+  }
+  
+  .block_6 {
+    background-image: url('./../images/block-6.svg');
+  } */
+}
+
+@media screen and (min-width: 1160px) {
+  .block {
+    width: 350px;
+    height: 242px;
+    padding: 30px 10px 0 108px;
+  }
+
+  .block__title {
+    margin-bottom: 16px;
+    line-height: 24px;
+  }
+  
+  .block__title::after {
+    top: 10px;
+    left: -48px;
+  }
+  
+  .block__discription {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+
+@media screen and (min-width: 1920px) {
+  .block {
+    width: 413px;
+    height: 268px;
+    border-radius: 20px;
+    padding: 46px 0 0 96px;
+  }
+
+  .block__title {
+    margin-bottom: 28px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .block__title::after {
+    top: -10px;
+    left: -60px;
+    font-size: 36px;
+  }
+  
+  .block__discription {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
